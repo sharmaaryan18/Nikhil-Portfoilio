@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border;
+ 
+}
+
+#wrapper{
+    height:100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.container{
+   position: relative;
+    margin: 0 auto;
+}
+
+.intro{
+    margin-left: 114px;
+   margin-right: 114px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#nikhilPic{
+    width: 434px;
+    height:400px;
+    margin-left: 18px;
+    margin-top: 364px;
+  
+    
+}
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+   padding: 0 4rem;
+   z-index:1;
+}
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.nav-items a{
+    color:white;
+}
+.nav-items div:hover{
+    transition: all 2s; 
+    font-weight:bold;
+}
+.portfolio{
+    color: black;
+    margin-top: 114px;
+    width: 457px;
+    height: 120px;
+    font-size: 71px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.name{
+    height: 235px;
+    width: 533px;
+    margin-top: 325px;
+    font-size: 35px;
+    font-weight: 550;
+   font-family: 'Poppins', sans-serif;
+   position: relative;
+   
+    
+}
+/*.ui{
+    background-color: #000000;
+    height: 95px;
+    width: 533px;
+   color: white;
+   font-size: 50px;
+   font-weight: 50px ;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}*/
+
+.ui{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    width: 533px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+.brownArea{
+    width: 470px;
+    height: 800px;
+    background-color: #000000;   
+}
+
+.aboutme{
+    margin-left: 114px;
+   margin-right: 114px;
+   margin-top: 200px;
+    display: flex;  
+    height: 499px;
+    width: 1374px;
+}
+.LaboutMe{
+    height: 499px;
+    width: 499px;
+}
+.para{
+    width: 600px;
+    height: 135px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.RaboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+
+
