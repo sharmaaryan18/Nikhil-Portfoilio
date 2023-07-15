@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing:border;
- 
 }
 
 #wrapper{
@@ -109,7 +108,7 @@ a{
 
 .aboutme{
     margin-left: 114px;
-   margin-right: 114px;
+   /* margin-right: 114px; */
    margin-top: 200px;
     display: flex;  
     height: 499px;
@@ -119,18 +118,87 @@ a{
     height: 499px;
     width: 499px;
 }
-.para{
+ .para{
+
     width: 600px;
     height: 135px;
+    /* display: flex;
+     justify-content: center;
+     align-items: center; */
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
  
-}
+} 
 .RaboutMe{
+    height: 499px;
+    width: 920px;
+    display: flex;
+     justify-content: center;
+    /* background-color: blue; */
+    align-items: center;
+    /* padding-left: 160px;
+    padding-right: 160px; */
+    
+}
+.education{
+   margin: 200px 114px;
+    height: 625px;
+    /* background-color: red; */
+    display: column;
+}
+
+.edu{
+    color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 160px;
+    /* width: 295px;
+    height: 75px; */
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.qualifications{
+    height: 567px;
+    display: flex;
+    align-items:flex-end ;
+    
+
+}
+
+.tenth{
+    border: 3px solid black;
+    background-color: blue;
+    height: 394.67px;
+    width: 400px;
+    margin:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.tweleve{
+
+    height: 394.67px;
+    width: 400px;
+    margin:20px;
+    border: 3px solid black;
+
+    
+}
+.graduation{
+  
+    height: 394.67px;
+    width: 400px;
+    margin:20px;
+     border-radius:  7em;
+     border: #000000;
+}
+#tenth{
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
 }
 
 
