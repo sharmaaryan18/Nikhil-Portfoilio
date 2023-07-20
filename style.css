@@ -7,7 +7,7 @@
 #wrapper{
     height:100vh;
     overflow-y:auto;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .container{
@@ -286,5 +286,150 @@ a{
 
 }
 
+/* .blackPart{
+    background-color: black;
+    width: 1520px;
+    height: 870px;
+    margin-bottom: 200px;
+    z-index: -1;
+}
+.personalExperience{
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+.techStack{
+    color: white;
+     
+} */
+.blackPart{
+    width: 1525px;
+    height: 1000px;
+    flex-shrink: 0;
+    background: #000;
+    margin-bottom: 200px;
+}
+
+.personalExperience{
+    color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+padding-top: 120px; 
+padding-left: 457px;
+}
+.techStack{
+ 
+    position: absolute;
+    margin-left: 100px;
+    padding-right:100px;
+    padding-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.illustrator{
+    width: 400px;
+    height: 157px;
+    border: 1px solid #FFF;
+    margin-left: 25px;
+    margin-top: 25px; 
+    display: flex;
+  
+}
+
+.ai{
+   margin: 10px 0px 10px 18px; 
+}
+.illustrationRight{
+    margin: 20px 0px 0px 20px;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+
+  /* Styles for the loading button */
+
+
+  
+ 
+
+
+.illust{
+    color: #FFF;
+    font-family:'Poppins', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.loading {
+    
+    border:2px solid white;
+    height: 7px;
+    width: 210px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .loadingInt{
+    background-color: white;
+    height: 5px;
+    width:103px ;
+    margin:1px 0px 1px 1px;
+  }
+
+.fifty{
+    color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+#miro{
+    margin-top: 22px;
+}
+#figma{
+    margin-top: 20px;
+}
+#html{
+    margin-top: 20px;
+}
+#xd{
+    margin-top: 13px;
+}
+#loadingIntPs{
+    width: 60%;
+}
+#loadingIntFigma{
+    width: 90%;
+}
+#loadingIntHtml{
+    width: 60%;
+}
+#loadingIntCss{
+    width: 50%;
+}
+#loadingIntXd{
+    width: 70%;
+}
+#loadingIntFusion{
+    width: 80%;
+}
+#loadingIntMiro{
+    width: 70%;
+}
 
 
