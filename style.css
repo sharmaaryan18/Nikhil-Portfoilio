@@ -49,8 +49,12 @@ a{
 .nav-items a{
     color:white;
 }
-.nav-items div:hover{
+/* .nav-items div:hover {
     transition: all 2s; 
+    font-weight:bold;
+} */
+#projects a:hover{
+    transition:  2s; 
     font-weight:bold;
 }
 .portfolio{
@@ -307,7 +311,7 @@ a{
     height: 1000px;
     flex-shrink: 0;
     background: #000;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .personalExperience{
@@ -323,7 +327,7 @@ padding-left: 457px;
 }
 .techStack{
  
-    position: absolute;
+    position:relative;
     margin-left: 100px;
     padding-right:100px;
     padding-top: 250px;
@@ -375,7 +379,7 @@ padding-left: 457px;
 
 .loading {
     
-    border:2px solid white;
+    border:1px solid white;
     height: 7px;
     width: 210px;
     color: #fff;
@@ -384,7 +388,7 @@ padding-left: 457px;
   }
   .loadingInt{
     background-color: white;
-    height: 5px;
+    height:5px;
     width:103px ;
     margin:1px 0px 1px 1px;
   }
@@ -396,8 +400,8 @@ font-size: 28px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-
 }
+
 #miro{
     margin-top: 22px;
 }
@@ -431,5 +435,397 @@ line-height: normal;
 #loadingIntMiro{
     width: 70%;
 }
+
+.trainingCourses{
+    width: 1200px;
+    height: 800px;
+    flex-shrink: 0;
+    margin: 0px 162.5px;
+    margin-bottom: 150px;
+}
+.training{
+    color: #000;
+font-family: 'Poppins', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+}
+ .coursesBox{
+    height: 750px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+} 
+.courses{
+    width: 300px;
+height: 270px;
+flex-shrink: 0;
+border: 2px solid #000;
+background: #FFF;
+
+}
+ .upper{
+    margin-left: 105px;
+} 
+ .logo{
+ margin: 0% 0%;
+} 
+.GcompanyName{
+    color: #000;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.Gdate{
+ font-family: 'Poppins', sans-serif; 
+ color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
+margin-left: 10px;
+position: relative;
+margin-left:-20px; 
+margin-top: 30px;
+}
+
+.Gcertificate{
+    position: relative;
+   height: 41px;
+   margin-top: 45px; 
+   color: #FFF;
+   background: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.AcompanyName{
+    color: #000;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.Adate{
+    font-family: 'Poppins', sans-serif; 
+    color: #000;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;  
+   position: relative;
+   margin-left:-20px; 
+   margin-top: 30px;
+   }
+   
+   .Acertificate{
+       position: relative;
+      height: 41px;
+      margin-top: 45px; 
+      color: #FFF;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+   }
+
+ .ACcompanyName{
+    color: #000;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -30px;
+    margin-top: 2px;
+}
+
+.ACdate{
+    font-family: 'Poppins', sans-serif; 
+    color: #000;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;  
+   margin-left: 10px;
+   }
+   
+   .ACcertificate{
+       position: relative;
+      height: 41px;
+      margin-top: 45px; 
+      color: #FFF;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+   }
+   .ACdate{
+       position: relative;
+      margin-left:-20px; 
+      margin-top: 30px;
+   
+   }
+
+.NcompanyName{
+    color: #000;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.Ndate{
+ font-family: 'Poppins', sans-serif; 
+ color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
+margin-left: 10px;
+position: relative;
+margin-left:-20px; 
+margin-top: 30px;
+}
+
+.Ncertificate{
+    position: relative;
+   height: 41px;
+   margin-top: 45px; 
+   color: #FFF;
+   background: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.GRcompanyName{
+    color: #000;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: -60px;
+}
+
+.GRdate{
+ font-family: 'Poppins', sans-serif; 
+ color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
+margin-left: 10px;
+position: relative;
+margin-left:-20px; 
+margin-top: 30px;
+}
+
+.GRcertificate{
+    position: relative;
+   height: 41px;
+   margin-top: 45px; 
+   color: #FFF;
+   background: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.VcompanyName{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.Vdate{
+ font-family: 'Poppins', sans-serif; 
+ color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
+margin-left: 10px;
+position: relative;
+margin-left:-20px; 
+margin-top: 30px;
+}
+
+.Vcertificate{
+    position: relative;
+   height: 41px;
+   margin-top: 46px; 
+   color: #FFF;
+   background: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.LicenceAndCertificate{
+   
+    height: 900px;
+    flex-shrink: 0;
+    margin: 0px 100px;
+    margin-bottom: 150px;
+}
+
+.licenceText{
+    color: #000;
+font-family:  'Poppins', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+}
+
+.certificates{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+#c1{
+    width: 200px;
+height: 179px;
+border: 2px solid black;
+padding: 10px;
+}
+#c2{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+ .left{
+    width: 450px;
+}
+.middle{
+    width: 200px;
+}
+.right{
+    width: 450px;
+}
+ .leftCertificates{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    flex: column;
+}
+
+.rightCertificates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+} 
+
+
+
+.internship{
+    margin-left: 100px;
+}
+.intern{
+    display: flex;
+    justify-content: center;
+    color: #000;
+font-family:   'Poppins', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.internshipCertificate{
+    margin-left: 114px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.penger{
+    color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 600px;
+height: 180px;
+background-color: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#ce1{
+   
+   width:600px;
+   height: 500px; 
+}
+#ce2{
+    height: 680px;
+}
+
+.sketching{
+    width: 1500px;
+    height: 633.215px;
+    flex-shrink: 0;
+    margin-top: 150px; 
+
+}
+
+.SketchingBlackPart {
+    width: 1400px;
+    height: 330px;
+    flex-shrink: 0;
+    background: #000;
+    margin-left: 60px;  
+}
+
+.sketchText{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+  margin: 90px 0px 0px 60px;
+}
+#modelImg{
+    width: 403.477px;
+    height: 256.58px;
+    flex-shrink: 0;
+}
+
+
 
 
